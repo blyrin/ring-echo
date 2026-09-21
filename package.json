@@ -1,0 +1,22 @@
+{
+  "name": "ring-echo-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "howler": "^2.2.4",
+    "solid-js": "^1.9.15"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.13",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.0",
+    "vite-plugin-solid": "^2.11.14"
+  }
+}
